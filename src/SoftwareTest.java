@@ -30,7 +30,10 @@ public class SoftwareTest {
 			
 		}
 		
-		
+		else
+		{
+			 discount = subtotal * 0.50;
+		}
 		double finalTotal = subtotal - discount;
 		return finalTotal;
 		

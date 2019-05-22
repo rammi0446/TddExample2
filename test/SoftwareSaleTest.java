@@ -36,6 +36,10 @@ public class SoftwareSaleTest {
 		double finalPrice4 = s.calculatePrice(40);
 		assertEquals(2772, finalPrice4,0);
 		
+		//buy 100+ package ,50%
+		double finalPrice5 = s.calculatePrice(40);
+		assertEquals(2772, finalPrice5,0);
+		
 	}
 	
 	
