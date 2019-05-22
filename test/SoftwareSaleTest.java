@@ -43,6 +43,10 @@ public class SoftwareSaleTest {
 		//buy negative should return -1
 		double finalPrice6 = s.calculatePrice(-120);
 		assertEquals(-1, finalPrice6,0);
+		
+		//not a requirement but good to test
+				double finalPrice7 = s.calculatePrice(0);
+				assertEquals(0, finalPrice7,0);
 	}
 	
 	
