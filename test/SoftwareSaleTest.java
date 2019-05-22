@@ -16,11 +16,19 @@ public class SoftwareSaleTest {
 
 	@Test
 	public void test() {
+//		SoftwareTest s = new SoftwareTest();
+//		double finalPrice = s.calculatePrice(2);
+//		//when comapring decimal in juint you must add the third param to the assertEqual
+//		//for the third param use the minimum number like 0.000001 or 0
+//		assertEquals(198, finalPrice,0);
+		
 		SoftwareTest s = new SoftwareTest();
-		double finalPrice = s.calculatePrice(2);
+		double finalPrice = s.calculatePrice(12);
 		//when comapring decimal in juint you must add the third param to the assertEqual
 		//for the third param use the minimum number like 0.000001 or 0
 		assertEquals(198, finalPrice,0);
 	}
+	
+	
 
 }
