@@ -34,6 +34,12 @@ public class SoftwareTest {
 		{
 			 discount = subtotal * 0.50;
 		}
+		else if(quantity < 0)
+		{
+			return -1;
+		}
+		
+		
 		double finalTotal = subtotal - discount;
 		return finalTotal;
 		
