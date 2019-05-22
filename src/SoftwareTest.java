@@ -22,6 +22,15 @@ public class SoftwareTest {
 			 discount = subtotal * 0.30;
 			
 		}
+		
+		else if(quantity >= 19 && quantity <= 49)
+		{
+			//40%
+			 discount = subtotal * 0.40;
+			
+		}
+		
+		
 		double finalTotal = subtotal - discount;
 		return finalTotal;
 		

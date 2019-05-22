@@ -24,19 +24,18 @@ public class SoftwareSaleTest {
 		assertEquals(198, finalPrice,0);
 		
 		
-		//buy ,20% discount
-		
+		//buy 10-19,20% discount
 		double finalPrice2 = s.calculatePrice(12);
-		//when comapring decimal in juint you must add the third param to the assertEqual
-		//for the third param use the minimum number like 0.000001 or 0
 		assertEquals(950.4, finalPrice2,0);
 		
 		// buy 20-48 ,30% discount
-	
 		double finalPrice3 = s.calculatePrice(30);
-		//when comapring decimal in juint you must add the third param to the assertEqual
-		//for the third param use the minimum number like 0.000001 or 0
 		assertEquals(2079, finalPrice3,0);
+		
+		//buy 55-99, 40% discount
+		double finalPrice4 = s.calculatePrice(40);
+		assertEquals(2079, finalPrice4,0);
+		
 	}
 	
 	
