@@ -30,7 +30,7 @@ public class SoftwareTest {
 			
 		}
 		
-		else
+		else if(quantity >=100)
 		{
 			 discount = subtotal * 0.50;
 		}
