@@ -34,7 +34,7 @@ public class SoftwareSaleTest {
 		
 		//buy 55-99, 40% discount
 		double finalPrice4 = s.calculatePrice(40);
-		assertEquals(2079, finalPrice4,0);
+		assertEquals(2772, finalPrice4,0);
 		
 	}
 	
